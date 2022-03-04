@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header section start */
+.header {
+  height: 100%;
+  width: 100vw;
+  padding: 20px 0;
+  background-color: #e8e7f7;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 70px;
+  color: white;
+}
+.navbar {
+  display: flex;
+  margin-top: 40px;
+}
+.navbar li {
+  margin-right: 20px;
+  font-size: 40px;
+  color: #ffff;
+}
+.nav li {
+  list-style: none;
+}
+.navbar li a {
+  text-decoration: none;
+}
+.logo li {
+  margin-top: 40px;
+  font-size: 30px;
+  background-color: #e02c6d;
+  color: #ffff;
+  padding: 10px 20px;
+}
+.banner-text {
+  width: 40%;
+  font-size: 40px;
+  margin-left: 100px;
+}
+.banner-logo {
+  width: 40%;
+  margin-left: 50px;
+}
+.banner-logo img {
+  width: 100%;
+}
+.banner {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+button {
+  font-size: 30px;
+  color: #ffff;
+  background-color: #e02c6d;
+  /* padding:10px 20px; */
+  margin-left: 20px;
+}
+/* header section end */
+
+/* player section start */
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 70px 40px 70px 90px;
+  grid-gap: 50px;
+  /* grid-gap:10px; */
+}
+.player {
+  width: 90%;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.player img {
+  width: 100%;
+  padding: 30px;
+}
+.player p,
+h1 {
+  padding: 30px;
+}
+/* player section end */
+
+/* match section start */
+.match {
+  margin: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.match-text {
+  width: 40%;
+  font-size: 40px;
+  /* margin-left: 100px; */
+}
+.match-logo {
+  width: 40%;
+  margin-left: 50px;
+}
+.match-logo img {
+  width: 100%;
+}
+button {
+  font-size: 30px;
+  color: #ffff;
+  background-color: #e02c6d;
+  /* padding:10px 20px; */
+  margin-left: 20px;
+}
+/* match section end */
+
+/* footer section start */
+.footer {
+  text-align:center;
+  margin:50px 0;
+    /* justify-content:center; */
+}
+.footer-img img {
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+}
+.footer i{
+    font-size:40px;
+    background-color:white;
+    color:gray;
+    padding:20px;
+
+}
+.footer p{
+    font-size:40px;
+}
+/* footer section end */
