@@ -8,14 +8,15 @@
   height: 100%;
   width: 100vw;
   padding: 20px 0;
-  background-color: #e8e7f7;
+  background-color: #2d25a0;
+  /* background-color: #e8e7f7; */
 }
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 70px;
-  color: white;
+  /* color: #ffffff; */
 }
 .navbar {
   display: flex;
@@ -24,13 +25,15 @@
 .navbar li {
   margin-right: 20px;
   font-size: 40px;
-  color: #ffff;
+  /* color: */
+  /* background-color:#ffff; */
 }
 .nav li {
   list-style: none;
 }
 .navbar li a {
   text-decoration: none;
+  color: #ffffff;
 }
 .logo li {
   margin-top: 40px;
@@ -39,10 +42,14 @@
   color: #ffff;
   padding: 10px 20px;
 }
+.logo li a{
+  color: #ffff;
+}
 .banner-text {
   width: 40%;
   font-size: 40px;
   margin-left: 100px;
+  color: #ffffff;
 }
 .banner-logo {
   width: 40%;
@@ -60,8 +67,8 @@ button {
   font-size: 30px;
   color: #ffff;
   background-color: #e02c6d;
-  /* padding:10px 20px; */
   margin-left: 20px;
+  padding: 10px 20px;
 }
 /* header section end */
 
@@ -113,10 +120,63 @@ button {
   font-size: 30px;
   color: #ffff;
   background-color: #e02c6d;
-  /* padding:10px 20px; */
   margin-left: 20px;
+  padding:10px 20px;
 }
 /* match section end */
+
+/* event section start */
+.event{
+  background-image: url(../images/football-1.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:100vh;
+  width: 100vw;
+}
+.event{
+  color:white;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.event-text{
+  margin-right: 200px;
+}
+.event-text h2{
+  font-size: 40px;
+}
+.event-text p{
+  font-size: 20px;
+}
+.time{
+  margin:30px 30px 30px 0;
+  font-size:20px;
+}
+.count{
+  display: flex;
+}
+.book a{
+  text-decoration:none;
+  color:white;
+  background-color:orange;
+  padding:10px 20px;
+  border-radius:5px;
+}
+/* event section end */
+
+/* final match section start */
+.final{
+  height: 100%;
+}
+.final-match-text h1{
+  text-align: center;
+  font-size: 50px;
+}
+.final-match img{
+width: 100%;
+}
+/* final match section end */
 
 /* footer section start */
 .footer {
