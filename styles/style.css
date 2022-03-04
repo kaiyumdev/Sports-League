@@ -125,6 +125,28 @@ button {
 }
 /* match section end */
 
+/* scores section start */
+.scores{
+  background-color: black;
+  height:80vh;
+  width:100vw;
+  color:white;
+  display:flex;
+  align-items:center;
+  justify-content:space-evenly;
+}
+.country-img{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.daily-match{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding:20px;
+}
+/* scores section end */
+
 /* event section start */
 .event{
   background-image: url(../images/football-1.jpeg);
@@ -145,6 +167,11 @@ button {
 }
 .event-text h2{
   font-size: 40px;
+}
+.event-text h3{
+  margin-top:30px;
+  margin-bottom:0;
+  font-size: 20px;
 }
 .event-text p{
   font-size: 20px;
