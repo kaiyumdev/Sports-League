@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 /* header section start */
 .header {
@@ -35,13 +36,27 @@
   color: #ffffff;
   padding: 5px;
 }
-.logo li {
-  margin-top: 40px;
-  font-size: 30px;
-  background-color: #e02c6d;
-  color: #ffff;
-  padding: 10px 20px;
-}
+  .logo li {background-image: linear-gradient(to right, #FF4E50 0%, #F9D423  51%, #FF4E50  100%)}
+  .logo li {
+     margin: 10px;
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+     display: block;
+   }
+
+   .logo li:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+  
+
 .logo li a {
   color: #ffff;
 }
@@ -63,36 +78,67 @@
   display: flex;
   align-items: center;
 }
-button {
-  font-size: 30px;
+/* button { */
+  /* font-size: 30px;
   color: #ffff;
   background-color: #e02c6d;
   margin-left: 20px;
-  padding: 10px 20px;
-}
+  padding: 10px 20px; */
+  button {background-image: linear-gradient(to right, #FF4E50 0%, #F9D423  51%, #FF4E50  100%)}
+  button {
+     margin: 10px;
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+     display: block;
+   }
+
+   button:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+
 /* header section end */
 
 /* player section start */
 .players {
+  background-image: url(../images/back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin: 70px 40px 70px 90px;
+  margin: 30px 50PX;
   grid-gap: 50px;
 }
 .player {
   width: 90%;
-  border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
-    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
-    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  margin-left: 20px;
 }
 .player img {
   width: 100%;
   padding: 30px;
+  border-radius: 50%;
 }
-.player p,
-h1 {
-  padding: 30px;
+.player h1
+ {
+  padding: 20px;
+}
+.player p
+ {
+  padding:0 0 20px 20px;
 }
 /* player section end */
 
@@ -182,13 +228,26 @@ button {
 .count {
   display: flex;
 }
-.book a {
-  text-decoration: none;
-  color: white;
-  background-color: orange;
-  padding: 10px 20px;
-  border-radius: 5px;
-}
+  .book a {background-image: linear-gradient(to right, #FF4E50 0%, #F9D423  51%, #FF4E50  100%)}
+  .book a {
+     margin: 10px;
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+     display: block;
+     text-decoration: none;
+   }
+
+   .book a:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
 /* event section end */
 
 /* final match section start */
