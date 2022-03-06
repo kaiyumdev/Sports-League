@@ -78,12 +78,6 @@
   display: flex;
   align-items: center;
 }
-/* button { */
-  /* font-size: 30px;
-  color: #ffff;
-  background-color: #e02c6d;
-  margin-left: 20px;
-  padding: 10px 20px; */
   button {background-image: linear-gradient(to right, #FF4E50 0%, #F9D423  51%, #FF4E50  100%)}
   button {
      margin: 10px;
@@ -160,13 +154,6 @@
 }
 .match-logo img {
   width: 100%;
-}
-button {
-  font-size: 30px;
-  color: #ffff;
-  background-color: #e02c6d;
-  margin-left: 20px;
-  padding: 10px 20px;
 }
 /* match section end */
 
@@ -286,62 +273,36 @@ button {
 /* footer section end */
 
 /* media section start */
-@media only screen and (max-width: 600px) {
-  /* .header{
-    display:grid;
-    grid-template-columns: repeat(1, 1fr);
-  } */
-  .nav {
-    display:grid;
-    grid-template-columns: repeat(1, 1fr);
-    /* display: flex;
-    flex-direction: column;
-    justify-content: flex-start; */
+@media only screen and (max-width: 688px) {
+  .nav{
+   display:flex;
+   flex-direction:column;
+   justify-content: flex-start;
+   align-items:flex-start;
+   margin-left: 10px;
   }
+   /*  */
   .navbar {
     display:grid;
     grid-template-columns: repeat(1, 1fr);
-    /* display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start; */
-  }
-  .navbar li a {
-    text-decoration: none;
-    color: #ffffff;
-    padding: 5px;
-  }
-  .logo {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-
-  .logo li {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    font-size: 20px;
-    background-color: #e02c6d;
-    color: #ffff;
-    padding: 10px 20px;
+    margin-left: 10px;
   }
   .banner-text {
-    display: block;
-    text-align: left;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: flex-start; */
-    font-size: 20px;
-    color: #ffffff;
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 10px;
+    font-size:20px;
+  }
+  .banner-text button {
+    margin-left: 10px;
+    font: size 20px;
   }
   .banner {
-    /* margin-top: 50px; */
-    display: flex;
-    flex-direction: column;
+    display:flex;
+    flex-direction:column;
     justify-content: flex-start;
-    align-items: start;
-    /* align-items: center; */
+    align-items:flex-start;
+    margin-left: 10px;
   }
   .banner-logo {
     width: 80%;
@@ -352,13 +313,6 @@ button {
     width: 100%;
   }
 
-  button {
-    font-size: 20px;
-    color: #ffff;
-    background-color: #e02c6d;
-    /* margin-left: 20px; */
-    padding: 10px 20px;
-  }
 
   /* player section */
   .players {
@@ -374,6 +328,7 @@ button {
   .match-text {
     width: 80%;
     font-size: 20px;
+    margin-left: 20px;
     /* margin-left: 100px; */
   }
   .match-logo {
@@ -402,7 +357,17 @@ button {
     justify-content: end;
   }
   .event-text{
-    align-items: center;
+   display:block;
+   /* justify-content: flex-end;
+   align-items: flex-end; */
+   margin:30px;
+   /* margin:auto !important; */
+  }
+  .event-text h2{
+    font-size:30px;
+  }
+  .count{
+    margin-top: 160px;
   }
   .final{
     display:grid;
@@ -414,6 +379,6 @@ button {
   .footer{
     display:grid;
     grid-template-columns: repeat(1, 1fr)
-  }
+  } 
 }
 /* media section end */
