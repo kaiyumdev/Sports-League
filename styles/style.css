@@ -15,11 +15,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 70px;
+  margin: 40px 70px;
 }
 .navbar {
   display: flex;
-  margin-top: 40px;
 }
 .navbar li {
   margin-right: 20px;
@@ -101,25 +100,28 @@
 /* header section end */
 
 /* player section start */
-.players {
+.player-section{
   background-image: url(../images/back.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100%;
+}
+.players {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin: 30px 50PX;
-  grid-gap: 50px;
+  place-items: center;
+  row-gap: 20px;
+  padding:20px 0;
 }
 .player {
-  width: 90%;
+  width: 80%;
   border: 1px solid rgba(255, 255, 255, 0.3);
   background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
-  margin-left: 20px;
+ 
 }
 .player img {
   width: 100%;
